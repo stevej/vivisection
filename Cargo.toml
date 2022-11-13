@@ -7,3 +7,8 @@ license = "Apache-2.0"
 repository = "https://github.com/stevej/rust-experiments"
 
 [dependencies]
+
+
+[[bin]]
+name = "fnv1a"
+path = "bin/fnv1a.rs"
