@@ -1,15 +1,16 @@
 Rust Experiments
 ----------------
 
-Digging into Rust's generated code
+Digging into Rust's generated code and experimenting with understanding Rust
+performance by profiling.
 
 How to use:
 
 Generate x86-64 asm
-`cargo rustc --example basics -- --emit asm`
+`cargo rustc -O --example basics -- --emit asm`
 
 Generate MIR, Rust's new IR.
-`cargo rustc --example basics -- --emit mir`
+`cargo rustc -O --example basics -- --emit mir`
 
 You can also generate LLVM IR with `llvm-ir`
 
