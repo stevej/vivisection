@@ -8,6 +8,8 @@ edition = "2018"
 repository = "https://github.com/stevej/vivisection"
 publish = false
 
+[lib]
+
 [dependencies]
 
 [[bin]]

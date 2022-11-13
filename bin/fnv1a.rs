@@ -18,7 +18,5 @@ fn main() {
     let filename = &args[1];
     let bytes = get_file_as_byte_vec(filename);
     let hash = fnv1a(bytes);
-
-    // read a file, hash it, output that hash
-    println!("we haven't hashed anything yet")
+    println!("{:#X}", hash);
 }
