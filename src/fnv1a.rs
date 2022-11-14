@@ -19,6 +19,7 @@ mod tests {
     fn empty() {
         assert_eq!(fnv1a(vec![]), 14695981039346656037);
     }
+
     #[test]
     fn lots_of_tests() {
         assert_eq!(fnv1a(vec![0x0]), 12638153115695167455);

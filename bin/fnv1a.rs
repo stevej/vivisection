@@ -1,7 +1,7 @@
-use std::fs::File;
-use std::io::Read;
 use std::env;
 use std::fs;
+use std::fs::File;
+use std::io::Read;
 use vivisection::fnv1a::fnv1a;
 
 fn get_file_as_byte_vec(filename: &String) -> Vec<u8> {
