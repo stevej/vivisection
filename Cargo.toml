@@ -1,9 +1,20 @@
 [package]
-name = "experiments"
+name = "vivisection"
 description = "Let's Experiment with Rust Internals!"
 version = "0.1.0"
-authors = ["stevej@fruitless.org"]
+authors = ["stevej@gmail.com"]
 license = "Apache-2.0"
-repository = "https://github.com/stevej/rust-experiments"
+edition = "2018"
+repository = "https://github.com/stevej/vivisection"
+publish = false
+
+[lib]
 
 [dependencies]
+
+[[bin]]
+name = "fnv1a"
+path = "bin/fnv1a.rs"
+
+[profile.release]
+debug = true
