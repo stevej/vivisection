@@ -4,6 +4,6 @@ pub mod fnv1a;
 mod tests {
     #[test]
     fn it_works() {
-        assert!(true)
+        assert_eq!(true, true)
     }
 }
